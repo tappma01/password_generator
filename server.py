@@ -1,5 +1,5 @@
 from flask import Flask, Response, request, render_template
-from flask_bootstrap import Bootstrap
+#from flask_bootstrap import Bootstrap
 from pswd import *
 
 app = Flask(__name__)
