@@ -3,7 +3,7 @@ from flask import Flask, Response, request, render_template
 from pswd import *
 
 app = Flask(__name__)
-Bootstrap(app)
+#Bootstrap(app)
 
 @app.route("/")
 def index():
